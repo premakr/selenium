@@ -26,5 +26,6 @@ public class BaseTest {
 	@AfterClass
 	public void m7() { Reporter.log("@AfterClass",true); }
 	@AfterMethod
-	public void m8() { Reporter.log("@AfterMethod",true); }
+	public void m8() { Reporter.log("@AfterMethod",true); 
+			 Reporter.log("@AfterMethod",true);}
 }
